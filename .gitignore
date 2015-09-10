@@ -1,0 +1,4 @@
+#ignore vendor
+vendor/
+#ignore node modules
+node_modules/
