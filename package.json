@@ -1,0 +1,18 @@
+{
+    "name": "simple-boilerplate",
+    "version": "0.1.0",
+    "description": "A simple boilerplate with popular js libs",
+    "author": "AbAdDoN",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "latest",
+        "jshint-stylish": "latest",
+        "grunt-contrib-csslint": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-cssmin": "latest",
+        "grunt-contrib-uglify": "latest",        
+        "grunt-contrib-htmlmin": "latest",
+        "grunt-browser-sync": "latest",
+        "grunt-contrib-watch": "latest"
+    }
+}

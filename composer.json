@@ -1,0 +1,29 @@
+{
+    "name": "ksenera/yii_composer_bower_grunt",
+    "description": "Startup your Yii 1.1 application with Composer / Bower / Grunt",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "yiisoft/yii": "1.1.16",
+        "php-kit/composer-bower-plugin": "dev-master"
+    },
+    "extra": {
+        "bower": {
+            "require": {
+                "bootstrap": "~3.3.5",
+                "jquery": "latest",
+                "jquery-ui": "latest",
+                "angular": "latest"
+            },
+            "directory": "vendor/bower_components"            
+        }
+    },
+    "authors": [
+        {
+            "name": "Geo Bas",
+            "email": "ksenera@yahoo.com"
+        }
+    ]
+}
